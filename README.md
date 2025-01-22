@@ -1,7 +1,3 @@
-Below is a **refined README** with a note about the availability of your full PDF paper. You can copy and paste it directly into a file named `README.md`. Adjust figure paths if necessary:
-
----
-
 # Early-Exiting AMC with TAD Denoiser and SNR Predictor
 
 This project extends an **Automatic Modulation Classification (AMC)** framework which excelled at **high-SNR** signal classification using **early exiting** \[1\]. However, its accuracy at **low-SNR** levels remained poor. To resolve this, we **iteratively developed** a **Threshold Autoencoder Denoiser (TAD)** and integrated a **lightweight SNR Predictor** into the baseline model. This ensures **efficiency** on **small-scale devices** while boosting **low-SNR** performance. 
